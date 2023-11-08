@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap");
+@use "@material/icon-button";
+@use "@material/top-app-bar/mdc-top-app-bar";
+@use "@material/tab-bar/mdc-tab-bar";
+@use "@material/tab-scroller/mdc-tab-scroller";
+@use "@material/tab-indicator/mdc-tab-indicator";
+@use "@material/tab/mdc-tab";
+@include icon-button.core-styles;
+
+/* TopBar.css */
+/* .header-z {
+  padding-top: 0px;
+} */
+.mdc-top-app-bar-pd {
+  background-color: #fff;
+  color: #000;
+}
+
+.mdc-tab__icon {
+  color: #82b440 !important;
+}
+
+.mdc-tab-indicator {
+  color: #82b440 !important;
+}
+

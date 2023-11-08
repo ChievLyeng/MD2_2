@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import Drawer from './Component/Drawer'
-import TopBar from './Component/TopBar'
+import { useState } from "react";
+import Drawer from "./components/Drawer";
+import TopBar from "./components/TopBar";
 
 function App() {
-
-return (
-  <>
-    <TopBar />
-    <Drawer />
-  </>
-)
+  return (
+    <>
+      <TopBar />
+      <Drawer />
+    </>
+  );
 }
 
-export default App
+export default App;
