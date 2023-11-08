@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap');
+@use "@material/icon-button";
+@use "@material/top-app-bar/mdc-top-app-bar";
+@include icon-button.core-styles;
+
+/* TopBar.css */
+/* .header-z {
+  padding-top: 0px;
+} */
+.mdc-top-app-bar {
+  background-color: #82B440;
+  color: #ffff ;
+}
+
+/* .top-bar-change {
+  background-color: transparent !important;
+  color: green !important;
+  font-weight: bolder !important;
+  background-color: #82B440 !important;
+} */
+
+.mdc-top-app-bar__row {
+  position: relative;
+}
+
+/* .burger-menu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+} */
+
+/* change icon color */
+.top-app-bar-icon i {
+  color: black ;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+img {
+  margin-top: 40px;
+  margin-left: 16px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+.drawer-header {
+  
+}
+/* TopAppBar.css */
+.menu-content {
+  position: fixed;
+  top: 57px;
+  /* left: 0;
+  width: 0px;
+  height: 50%;
+  background-color: #fff;  */
+  z-index: 1000;
+  transition: transform 0.3s ease;
+  transform: translateX(0);
+}
+
+.mdc-drawer {
+  width: 300px;
+}
+
+
+.custom-drawer-style a {
+  border-top: 1px solid #ccc;
+  padding: 30px;
+  font-size: 18px;
+  display: flex;
+  font-family: 'Roboto',sans-serif;
+  gap: 30px;
+}
+.menu-content ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.menu-content li {
+  padding: 10px 0;
+}
+
+.menu-content a {
+  text-decoration: none;
+  color: #333; /* Adjust text color as needed */
+}
+
+
+
+/* drawer title */
+.drawer-title {
+  color: #82B440 !important;
+  font-weight: bold;
+  font-family: 'Roboto',sans-serif;
+}
+
+/* Adjust other styles as needed */
